@@ -12,7 +12,7 @@
     <parent>
         <artifactId>portlet-primefaces</artifactId>
         <groupId>de.eonas.portal.parentpoms</groupId>
-        <version>1.2</version>
+        <version>1.1</version>
     </parent>
 
     <properties>
@@ -141,10 +141,16 @@
         </dependency>
 
 	<dependency>
-		<groupId>de.eonas.website</groupId>
+		<groupId>de.eonas.portal.demo</groupId>
 		<artifactId>jshandler</artifactId>
 		<version>1.0</version>
 	</dependency>
 
     </dependencies>
+
+	<scm>
+		<connection>scm:git:git@github.com:eonas/rssreaderportlet.git</connection>
+		<developerConnection>scm:git:git@github.com:eonas/rssreaderportlet.git</developerConnection>
+		<url>https://github.com/eonas/rssreaderportlet.git</url>
+	</scm>
 </project>
